@@ -1,0 +1,243 @@
+
+
+#title {
+    background-color:#8DBCC7;
+}
+
+h1{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Montserrat';
+    color:white;
+    font-weight: bold;
+    font-size: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color:#fff;
+    padding-bottom: 3%;
+}
+
+h4{
+     font-family: 'Montserrat';
+    font-weight: bold;
+    color:#fff;
+}
+h5{
+    font-family: 'Montserrat';
+    font-size:medium;
+    font-weight:500;
+    color: #ffffff;
+}
+h6{
+    font-family: 'Montserrat';
+    font-size:medium;
+    font-weight:500;
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+    
+}
+
+
+.container-fluid {
+    padding: 3% 15%;    
+    
+}
+.resumebutton{
+    font-weight: bold;
+}
+.navbar {
+    padding:0 0 4.5rem;
+    
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+a{
+    color:white;
+}
+
+.round-navbar{
+    border-radius:25px;
+}
+.nav-item{
+    padding: 0 18px;
+    font-weight: bold;
+    
+}
+
+.nav-link{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1.2rem;
+
+}
+
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position:absolute;
+}
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #c7988d;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8712;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #8fdbf2
+}
+
+#testimonials{
+    text-align:center;
+    background-color:#8DBCC7;
+    
+}
+.carousel-item{
+     padding: 7% 15%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin:10px;
+}
+
+#press{
+    background-color:#c7988d;
+    text-align: center;
+}
+
+
+
+
+/*Contact me box */
+#back{
+    background-color: #c7988d;
+}
+.contactme{
+    text-align: center;
+    padding-top: 40px;
+}
+.contact-section {
+  background-color:#8DBCC7;
+  padding: 40px 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 900px;
+ margin: 100px 200px;
+  border-radius: 10px;
+  margin-bottom:0;
+  
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.contact-form span {
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.name-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 3px;
+  background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  margin-top: 5px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background-color: white;
+  color: #8DBCC7;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border:none;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #e0e0e0;
+}
+
+.required{
+    color:#ffffff;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #c7988d;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color:#ffffff;
+}
+
+@media(max-width:1028px){
+
+    #title{
+        text-align:center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+    }
+}
